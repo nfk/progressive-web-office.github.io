@@ -5,6 +5,8 @@ import { openApp } from './helpers';
 
 test('reminds of an event at the time asked, once (NOTIF-001)', async ({ page, context }) => {
   await context.grantPermissions(['notifications']);
+  // Headless Chromium reports "denied" for Notification.permission even when it is granted.
+  await page.addInitScript(() => Object.defineProperty(Notification, 'permission', { get: () => 'granted' }));
   await page.clock.install({ time: new Date(2026, 9, 6, 13, 30) });
   const errors = await openApp(page);
   await page.evaluate(async () => {
