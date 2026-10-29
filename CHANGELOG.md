@@ -1463,13 +1463,13 @@ First minor release: everything since 0.0.13, summed up in the README.
   `llms-full.txt`.
 - Governance: MIT license, security policy (GHSA), Contributor Covenant 3.0.
 
-[Unreleased]: https://github.com/progressive-web-office/progressive-web-office/compare/main...HEAD
-[0.0.9]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.8]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.7]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.6]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.5]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.4]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.3]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.2]: https://github.com/progressive-web-office/progressive-web-office/commits/main
-[0.0.1]: https://github.com/progressive-web-office/progressive-web-office/commits/main
+[Unreleased]: https://github.com/progressive-web-office/progressive-web-office.github.io/compare/main...HEAD
+[0.0.9]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.8]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.7]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.6]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.5]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.4]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.3]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.2]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
+[0.0.1]: https://github.com/progressive-web-office/progressive-web-office.github.io/commits/main
