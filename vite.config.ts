@@ -170,6 +170,9 @@ export default defineConfig({
           { src: 'screenshots/start.png', sizes: '1280x800', type: 'image/png', form_factor: 'wide', label: 'The start screen of the application' },
           { src: 'screenshots/document.png', sizes: '1280x800', type: 'image/png', form_factor: 'wide', label: 'A lab report with an equation and a table in the word processor' },
           { src: 'screenshots/spreadsheet.png', sizes: '1280x800', type: 'image/png', form_factor: 'wide', label: 'A spreadsheet with formulas' },
+          { src: 'screenshots/phone-start.png', sizes: '393x851', type: 'image/png', form_factor: 'narrow', label: 'The start screen on a phone' },
+          { src: 'screenshots/phone.png', sizes: '393x851', type: 'image/png', form_factor: 'narrow', label: 'A lab report on a phone' },
+          { src: 'screenshots/phone-spreadsheet.png', sizes: '393x851', type: 'image/png', form_factor: 'narrow', label: 'A spreadsheet on a phone' },
         ],
         // PLT-006: File Handling API (Chromium). Not yet in the manifest typings.
         ...({

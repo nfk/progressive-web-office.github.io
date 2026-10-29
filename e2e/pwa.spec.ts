@@ -45,6 +45,7 @@ test('serves a valid web app manifest with file handlers', async ({ request }) =
   expect(manifest).toMatchObject({ lang: 'en', dir: 'ltr', orientation: 'any' });
   // PLT-009
   expect(manifest.shortcuts.map((s: { url: string }) => s.url)).toEqual(['./?new=document', './?new=spreadsheet', './?new=presentation']);
+  expect(manifest.screenshots.map((s: { form_factor: string }) => s.form_factor).sort()).toEqual(['narrow', 'narrow', 'narrow', 'wide', 'wide', 'wide']);
   for (const shot of manifest.screenshots) expect((await request.get(shot.src)).ok(), shot.src).toBe(true);
 });
 
