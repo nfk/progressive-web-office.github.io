@@ -8,6 +8,13 @@ Roadmap phases are `0.0.x` milestones (see `ROADMAP.md`).
 
 ## [Unreleased]
 
+### Added
+
+- The installed application offers "New document", "New spreadsheet" and "New
+  presentation" from its icon (long press or right click), and its manifest
+  gives its language, direction, orientation and screenshots, for the
+  install dialog of the browsers and the stores (PLT-009, PLT-003).
+
 ### Changed
 
 - The kind of an interaction with a contact is free: besides meeting, call,
